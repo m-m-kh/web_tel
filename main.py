@@ -33,7 +33,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=InlineKeyboardMarkup.from_button(
             InlineKeyboardButton(
                 text="Open the color picker!",
-                web_app=WebAppInfo(url=f"https://127.0.0.1:5500/index.html?name=2020"),
+                web_app=WebAppInfo(url=f"https://m-m-kh.github.io/web_tel/?name=2020"),
             )
         ),
     )
