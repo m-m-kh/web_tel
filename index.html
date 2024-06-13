@@ -20,7 +20,7 @@
     Telegram.WebApp.ready();
     const textarea = document.querySelector('div')
     const a= new Telegram.WebApp.BiometricManager.init()
-    textarea.innerHTML = a.deviceId
+    textarea.innerHTML = document.URL
 
     <!-- textarea.innerHTML += Telegram.WebApp.initData -->
     <!-- textarea.innerHTML = Telegram.Utils.urlParseQueryString(document.URL) -->
